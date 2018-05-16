@@ -1,0 +1,51 @@
+Unhandled Exception: System.ServiceModel.FaultException`1[[Microsoft.Xrm.Sdk.OrganizationServiceFault, Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]: Web resource msdyn_/AdvancedInAppShell.htm cannot be added to an unmanaged solution because it was created by a managed solutionDetail: 
+<OrganizationServiceFault xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/xrm/2011/Contracts">
+  <ActivityId>4423c437-7d06-4cb2-8e65-fa10f0f08e60</ActivityId>
+  <ErrorCode>-2147192803</ErrorCode>
+  <ErrorDetails xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiExceptionSourceKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Plugin/Microsoft.Crm.ObjectModel.SolutionService</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiOriginalExceptionKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Microsoft.Crm.CrmException: Web resource msdyn_/AdvancedInAppShell.htm cannot be added to an unmanaged solution because it was created by a managed solution ---&gt; Microsoft.Crm.CrmException: Web resource msdyn_/AdvancedInAppShell.htm cannot be added to an unmanaged solution because it was created by a managed solution
+   at Microsoft.Crm.ObjectModel.SolutionServiceInternal`1.ValidateConfigurationPage(IBusinessEntity solution, Boolean isCreate, ExecutionContext context)
+   at Microsoft.Crm.ObjectModel.SolutionServiceInternal`1.ValidateSolution(IBusinessEntity solution, Boolean isCreate, Boolean isClone, ExecutionContext context)
+   at Microsoft.Crm.ObjectModel.SolutionServiceInternal`1.Create(IBusinessEntity solution, Boolean allowReadOnlyPublisher, Boolean isClone, ExecutionContext context)
+   at Microsoft.Crm.ObjectModel.SolutionServiceInternal`1.Create(IBusinessEntity solution, Boolean allowReadOnlyPublisher, ExecutionContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.Crm.Extensibility.VersionedPluginProxyStepBase.Execute(PipelineExecutionContext context)
+   at Microsoft.Crm.Extensibility.PipelineInstrumentationHelper.Execute(Boolean instrumentationEnabled, String stopwatchName, ExecuteWithInstrumentation action, PipelineExecutionContext context)
+   at Microsoft.Crm.Extensibility.Pipeline.&lt;&gt;c__DisplayClass1_0.&lt;Execute&gt;b__0()</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiStepKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">2a714967-3f12-11dd-9bde-0019b9312238</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiDepthKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">1</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiActivityIdKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">4423c437-7d06-4cb2-8e65-fa10f0f08e60</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiPluginSolutionNameKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">System</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiStepSolutionNameKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">System</d2p1:value>
+    </KeyValuePairOfstringanyType>
+  </ErrorDetails>
+  <Message>Web resource msdyn_/AdvancedInAppShell.htm cannot be added to an unmanaged solution because it was created by a managed solution</Message>
+  <Timestamp>2018-03-12T08:38:53.3322046Z</Timestamp>
+  <ExceptionRetriable>false</ExceptionRetriable>
+  <ExceptionSource i:nil="true" />
+  <InnerFault i:nil="true" />
+  <OriginalException i:nil="true" />
+  <TraceText i:nil="true" />
+</OrganizationServiceFault>
+
